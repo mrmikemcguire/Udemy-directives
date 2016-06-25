@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
+import {HighlightDirective} from "./highlight-directives";
 
 @Component ({
   selector: 'my-attribute-directives',
   template: `
-    <dir>
+    <div myHighlight>
         Highlight me
-    </dir>
-    `
+    </div>
+    `,
+  directives: [HighlightDirective]
 
 })
 
