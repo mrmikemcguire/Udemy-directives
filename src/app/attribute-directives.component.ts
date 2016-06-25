@@ -7,6 +7,10 @@ import {HighlightDirective} from "./highlight-directives";
     <div myHighlight>
         Highlight me
     </div>
+    <br><br>
+    <div myHighlight>
+        Another Highlight
+    </div>
     `,
   directives: [HighlightDirective]
 
