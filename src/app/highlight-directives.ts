@@ -14,11 +14,11 @@ export class HighlightDirective {
 
   constructor(private _elRef:ElementRef, private  _renderer:Renderer) {}
 
-   onMouseEnter() {
+  onMouseEnter() {
    this.highlight(this.highlightColor || this._defaultColor);
    }
 
-   onMouseLeave() {
+  onMouseLeave() {
    this.highlight(null);
    }
 
